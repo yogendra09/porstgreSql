@@ -1,6 +1,6 @@
 import { where } from "sequelize";
 import { userModel } from "../config/db.config.js";
-
+import path from "path";
 const test = async (req, res) => {
   res.send("server live!");
 };
